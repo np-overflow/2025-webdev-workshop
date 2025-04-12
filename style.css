@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+  height: 10vh;
+}
+
+.nav_buttons {
+  height: 10vh;
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10vw;
+}
+
+.nav_buttons h3{
+  color: white;
+  font-family: sans-serif;
+}
+
+#login_button {
+  background-color: rgb(60, 66, 69);
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+
+/* Main content */
+
+
+.content {
+  height: 90vh;
+  width: 100vw;
+  background: url(images/background.jpg) center;
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.content h1 {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 1rem;
+  margin-left: 15vw;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+
+
+/* order section */
+
+.order_container {
+  width: 100vw;
+  height: 55vh;
+  background-color: aliceblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image_container img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.image_container {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#order_button{
+  background-color: #50071A;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-top: 5vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* more info section */
+
+.container{
+  width: 100vw;
+  display: flex;
+
+}
+
+.container img {
+  width: 50vw;
+  height: 80vh;
+}
+
+
+
+
+.comment_area {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.comment_area p {
+  width: 40vw;
+  margin-top: 1vh;
+  margin-bottom: 10vh;
+}
+
+#pickup_button {
+  font-weight: 100;
+  margin-top: 3vh;
+  background-color: #50071A;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+}
