@@ -5,7 +5,7 @@
 
 
 .navbar {
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -44,7 +44,7 @@
 
 .content {
   height: 90vh;
-  width: 100%;
+  width: 100vw;
   background: url(images/background.jpg) center;
   background-size: cover;
   
@@ -70,7 +70,7 @@
 /* order section */
 
 .order_container {
-  width: 100%;
+  width: 100vw;
   height: 55vh;
   background-color: aliceblue;
 
@@ -107,7 +107,7 @@
 /* more info section */
 
 .container{
-  width: 100%;
+  width: 100vw;
   display: flex;
 
 }
@@ -144,10 +144,4 @@
   border-radius: 1rem;
   cursor: pointer;
   color: white;
-}
-
-/* login section */
-
-#login_title {
-  margin-bottom: 1rem;
 }

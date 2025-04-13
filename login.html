@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
 </head>
 
 <body>
     <!--Default navbar-->
     <div class="navbar">
-        <img src="images/Logo.png" alt="" class="logo" onclick="window.location.href='index.html'" style="cursor: pointer;">
+        <img src="images/Logo.png" alt="" class="logo" onclick="homeRedirect()">
 
         <div class="nav_buttons">
             <h3>Menu</h3>
@@ -25,23 +25,23 @@
 
     <!--Main content-->
     <div class="content">
-        <h1 id="login_title">Welcome back</h1>
-        <div class="flex flex-col ml-[15vw] max-w-[65vw] mb-[30vh]">
-            <h3 class="text-white text-2xl mb-[2vh]">Please sign in to continue.</h3>
-            <input type="text" placeholder="Username"
-                class="mb-[2vh] p-3 border border-gray-300 w-[40vw] text-xl rounded-md">
-            <input type="password" placeholder="Password"
-                class="mb-[2vh] p-3 border border-gray-300 w-[40vw] text-xl rounded-md">
+      <h1 id="login_title">Welcome back</h1>
+      <div class="login_container">
+          <h3 class="login_text">Please sign in to continue.</h3>
+          <input type="text" placeholder="Username" class="login_field">
+          <input type="password" placeholder="Password" class="login_field">
 
-            <!--Button-->
-            <div class="flex flex-col justify-center items-center bg-[#50071A]
-                rounded-md w-48 h-14 cursor-pointer 
-                hover:bg-red-900 active:bg-red-950 
-                text-white text-lg font-bold select-none">
-                Login
-            </div>
-        </div>
-    </div>
+          <!--Button-->
+          <div class="login_button">Login</div>
+      </div>
+  </div>
+
+    <script>
+      function homeRedirect() {
+        window.location.href='index.html'
+      }
+    </script>
+
 </body>
 
 </html>
